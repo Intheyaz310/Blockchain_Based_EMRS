@@ -5,7 +5,7 @@ import PatientRegistry from "./components/PatientRegistration";
 import LoginPage from "./components/LoginPage";
 import PatientDashBoard from "./components/PatientDashBoard";
 import DoctorDashBoard from "./components/DoctorDashBoard";
-import DiagnosticDashBoard from "./components/DiagnosticDashBoard";
+import DiagnosticDashboard from "./components/DiagnosticDashboard";
 import RegisterPage from "./components/RegisterPage";
 import DoctorLogin from "./components/DoctorLogin";
 import DiagnosticLogin from "./components/DiagnosticLogin";
@@ -87,7 +87,7 @@ const BrowseRouter = () => {
         <Route path="/login" element={<LoginPage />}></Route>
         <Route path="/patient/:hhNumber" element={<PatientDashBoard />}></Route>
         <Route path="/doctor/:hhNumber" element={<DoctorDashBoard />}></Route>
-        <Route path="/diagnostic/:hhNumber" element={<DiagnosticDashBoard />}></Route>
+        <Route path="/diagnostic/:hhNumber" element={<DiagnosticDashboard />}></Route>
         <Route
           path="/patient/:hhNumber/viewprofile"
           element={<ViewProfile />}
